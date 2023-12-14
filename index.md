@@ -14,6 +14,7 @@ Here is a table with **WER** results of the baseline model, Kaldi_NL, as well as
 **cts_nl** = Conversational Telephone Speech in the Netherlands, from the N-Best 2008 evaluation dataset
 <br><br><br>
 And here are results for the same models on bn_nl with the foreign speech lines removed from the dataset:
+
 |Model\Dataset|bn_nl|
 |---|---|
 |Kaldi_NL|12.1%|
