@@ -30,3 +30,5 @@ And here are results for the same models on bn_nl with the foreign speech lines 
 |Whisper v3 w/ VAD|14.0%|
 
 Something to note about this setup of the dataset is that Whisper v3 was already able to recognize foreign speech and ignore it. The only notable exception was for a German speaker, where I assume that it was still transcribed because German and Dutch are very similar as languages.
+
+The results reported by @Golesheed
