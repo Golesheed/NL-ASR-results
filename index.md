@@ -31,4 +31,8 @@ And here are results for the same models on bn_nl with the foreign speech lines 
 
 Something to note about this setup of the dataset is that Whisper v3 was already able to recognize foreign speech and ignore it. The only notable exception was for a German speaker, where I assume that it was still transcribed because German and Dutch are very similar as languages.
 
-The results reported by @Golesheed
+The outcomes presented by [@Golesheed](https://github.com/Golesheed) in preparation for her pilot investigation on the performance of Whisper Large v2 across diverse age groups and linguistic backgrounds within the JASMIN CGN corpus are outlined below. The evaluation was conducted on individual subsets of the dataset without introducing additional divisions. Prior to the assessment, a normalization technique was applied to ensure uniformity in the datasets.
+
+|model/age group|Native Elderly|Non-native Adult|Native Children|Non-native Children|
+|---|---|---|---|---|
+|Whisper large v2|28.73%|42.07%|26.12%|38.48%|
